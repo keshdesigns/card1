@@ -1,0 +1,82 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;}
+
+body { background-color: #FFF3C7;}
+
+
+
+.navbar{ height: 100px;
+    width: 100%;
+    color: #FEC7B4;
+    background-color:#FC819E;
+    padding-top: 20px;
+}
+
+    .bar { text-decoration: none;
+        color: black;
+        margin-left: 200px;
+    font-weight: bold;}
+
+    .bar:hover { color: white;}
+
+        .tour{ color:#FCDC2A;
+            text-decoration: none;
+            font-weight: 900;
+            }
+
+.container{
+display: flex;
+margin-top: 20px;
+max-width: 1320px;
+height: auto;
+gap: 100px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+H1{ text-align: center;
+    margin-top: 30px;}
+
+.outer { background-color:  #F7418F;
+    width: 300px;
+    border: 1px solid rgb(162, 0, 255);
+box-shadow: 0px, 2px, 4px rgba(0, 0, 0, 0.3);
+overflow: hidden;
+padding: 10px;}
+
+.outer img { width: 100%;
+height: auto;
+}
+
+.content { text-align: center;
+    color: black;}
+.content h3 { color: yellow;}
+
+button { width: 100px;
+text-align: center;
+margin-top: 10px;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+cursor: pointer;}
+
+button:hover {background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(36,29,253,1) 50%, rgba(252,176,69,1) 100%);}
+
+    button:active{ opacity: 0.7;}
+
+    .newyork-btn { background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);}
+
+        .newyork:hover { background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(36,29,253,1) 50%, rgba(252,176,69,1) 100%); }
